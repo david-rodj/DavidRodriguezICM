@@ -70,9 +70,9 @@ fun ListScreen(number: Int, navController: NavController) {
                     },
                     supportingContent = {
                         if (index == 0) {
-                            Text("T₀ = 0")
+                            Text("n₀ = 0")
                         } else {
-                            Text("T₍$index₎ = $index × ($index + 1) ÷ 2 = $triangularNumber")
+                            Text("n₍$index₎ = $index × ($index + 1) ÷ 2 = $triangularNumber")
                         }
                     }
                 )
